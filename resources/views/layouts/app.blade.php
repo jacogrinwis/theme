@@ -13,13 +13,17 @@
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 </head>
 
-<body>
-    <h1 class="text-3xl font-bold underline mb-6">
-        Hello world!
-    </h1>
-    <x-alert message="Hello world!"	/>
+<body class="font-sans antialiased">
+    <div class="min-h-screen bg-gray-100">
+
+        <!-- Page Content -->
+        <main>
+            {{ $slot }}
+        </main>
+    </div>
 </body>
 
 </html>
