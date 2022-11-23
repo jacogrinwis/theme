@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ThemeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/theme', function () {
-    return view('theme');
+Route::name('theme.')->prefix('theme')->group(function () {
+    Route::get('/', [ThemeController::class, 'index'])->name('index');
 });
