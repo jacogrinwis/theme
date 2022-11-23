@@ -16,8 +16,8 @@
 
 </head>
 
-<body class="font-sans antialiased">
-    <div class="min-h-screen bg-gray-100">
+<body class="font-sans antialiased bg-neutral-100 dark:bg-neutral-900">
+    <div class="min-h-screen mx-auto sm:p-6 lg:p-8">
 
         <!-- Page Content -->
         <main>
