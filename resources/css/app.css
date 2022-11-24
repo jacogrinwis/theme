@@ -17,7 +17,7 @@
     @apply text-blue-700 bg-blue-100 dark:bg-blue-200 dark:text-blue-800;
 }
 
-.alert-danger {
+.alert-danger, .alert-error {
     @apply text-red-700 bg-red-100 dark:bg-red-200 dark:text-red-800;
 }
 
