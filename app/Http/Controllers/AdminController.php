@@ -8,6 +8,8 @@ class AdminController extends Controller
 {
     public function index()
     {
-        return view('admin.index');
+        $data = array('message' => 'Hello, World!');
+
+        return view('admin.index')->with($data);
     }
 }

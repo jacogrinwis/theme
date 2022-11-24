@@ -16,7 +16,7 @@
 
 </head>
 
-<body class="font-sans antialiased bg-neutral-100 dark:bg-neutral-900">
+<body class="font-sans antialiased bg-neutral-50 dark:bg-neutral-900">
     <div class="min-h-screen mx-auto sm:p-6 lg:p-8">
 
         <!-- Page Content -->
