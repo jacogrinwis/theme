@@ -21,6 +21,11 @@ Route::get('/', function () {
 
 Route::name('theme.')->prefix('theme')->group(function () {
     Route::get('/', [ThemeController::class, 'index'])->name('index');
+    Route::get('/forms', [ThemeController::class, 'forms'])->name('forms');
+    Route::get('/alerts', [ThemeController::class, 'alerts'])->name('alerts');
+    Route::get('/tables', [ThemeController::class, 'tables'])->name('tables');
+    Route::get('/buttons', [ThemeController::class, 'buttons'])->name('buttons');
+    Route::get('/example', [ThemeController::class, 'example'])->name('example');
 });
 
 Route::name('admin.')->prefix('admin')->group(function () {
